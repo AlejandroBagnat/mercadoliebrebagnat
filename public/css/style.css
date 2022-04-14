@@ -251,7 +251,7 @@ footer i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4% 45% 4% 35%;
+  margin: auto;
 
 }
 
@@ -283,11 +283,8 @@ footer i {
 
 /* cambiamos el label Fecha de nacimiento */
 .change-label {
-  /* width: 15vw;
-    height: 2vw; */
   font-weight: bold;
-  font-size: 80%;
-  /* font-size: 130%; */
+  font-size: 100%;
 }
 
 /* cambiamos para seleccionar archivos */
@@ -314,10 +311,10 @@ footer i {
 .buttons-register {
   display: flex;
   flex-direction: row;
-  margin-bottom: 25%;
-  margin-right: 230%;
+  margin-bottom: 5%;
+  margin-right: 96%;
   width: 0vw;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .div-button-delete {
