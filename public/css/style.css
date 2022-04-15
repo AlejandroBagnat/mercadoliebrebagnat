@@ -109,7 +109,7 @@ img.liebre {
 }
 
 .article:hover {
-  box-shadow : 0px 0px 10px rgb(100 , 100 , 100);
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 /* desaparecer la descripcion */
@@ -248,10 +248,11 @@ footer i {
         y Domicilio
       */
 .form-register {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin: 4% 45% 4% 35%;
 
 }
 
@@ -259,6 +260,7 @@ footer i {
   margin: 4% 25% 4% 25%;
   border-radius: 4px;
   background-color: var(--gris-oscuro);
+  padding-bottom: 60px;
 }
 
 .div-first-register-form-name {
@@ -283,8 +285,11 @@ footer i {
 
 /* cambiamos el label Fecha de nacimiento */
 .change-label {
+  /* width: 15vw;
+    height: 2vw; */
   font-weight: bold;
-  font-size: 100%;
+  font-size: 80%;
+  /* font-size: 130%; */
 }
 
 /* cambiamos para seleccionar archivos */
@@ -311,30 +316,48 @@ footer i {
 .buttons-register {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5%;
-  margin-right: 96%;
+  /* 
+  margin-bottom: 25%;
+  margin-right: 230%;
   width: 0vw;
-  justify-content: flex-start;
+  flex-wrap: wrap; */
+  margin: 4% 5% 4% 5%;
+  position: absolute;
+  top: 100%;
 }
 
-.div-button-delete {
+/* .div-button-delete {
   margin-left: 60%;
 
-}
+} */
 
 .buttons-register-modification {
-  /* background-color: var(--azul);
-  color: #ffffff;
-  font-weight: bold;
-  width: 160%;
-  height: 130%;
-  border-radius: 4px; */
+  /* 
+  position: absolute;
+  
+  background-color: #03264C;
+  border-radius: 4px;
+  color: #ffffff;  
+  padding: 15% 100% 15% 100%; */
+  display: block;
+  margin-bottom: 2rem;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+
+}
+
+.buttons-register-modification:hover button {
+  background-color: #0022AA;
+  cursor: pointer;
+}
+
+.buttons-register-modification button {
   width: 100%;
   padding: 0.75rem;
   background-color: #03264C;
   border-radius: 4px;
-  color: #ffffff;  
-  padding: 5px 100px 5px 100px;
+  color: #ffffff;
 }
 
 /* -----------------login ------------------------*/
@@ -429,4 +452,11 @@ footer i {
   .article {
     width: 23%;
   }
+
+  /* .buttons-register{
+    width: 40%;
+  } */
+  /* .buttons-register-modification button{
+    width: 40%;
+  } */
 }
