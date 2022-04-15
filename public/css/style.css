@@ -409,6 +409,7 @@ footer i {
     /* display: block; */
     display: flex;
     flex-direction: row;
+    font-size: 20px;
     justify-content: space-evenly;
     max-width: 100vw !important;
   }
@@ -453,10 +454,4 @@ footer i {
     width: 23%;
   }
 
-  /* .buttons-register{
-    width: 40%;
-  } */
-  /* .buttons-register-modification button{
-    width: 40%;
-  } */
 }
